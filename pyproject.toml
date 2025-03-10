@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spokentxt-punctuation-restoration"
+version = "0.1.0"
+description = ""
+authors = ["Jinwon Kim <code.eric22@gmail.com>"]
+readme = "README.md"
+packages = [{include = "spokentxt_punctuation_restoration"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.49.0"
+torch = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
